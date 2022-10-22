@@ -1,0 +1,53 @@
+/*applies styling to entire webpage**/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #000000;
+}
+
+.header {
+    padding: 20px;
+    justify-content: space-around;
+    background-color: #000000;
+    color: #168ecf;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 50px;
+}
+
+.header nav {
+    padding: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+    justify-content: space-around;
+}
+
+.header nav ul li {
+    display: inline-block;
+    padding: 15px;
+    margin-left: 25px;
+    border-style: solid;
+    border-color: #fff;
+}
+
+/*keeps text white, regardless of clicked hyperlink*/
+a {
+    color: #168ecf;
+    text-decoration: none;
+}
+
+.intro {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 25px;
+    display: block;
+    background-color: silver;
+}
